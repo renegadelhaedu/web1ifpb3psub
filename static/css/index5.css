@@ -35,3 +35,9 @@ body{
   cursor: pointer;          /* cursor de mão */
 
 }
+
+.loginerro{
+    text-align:center;
+    color:red;
+    font-size:11px;
+}

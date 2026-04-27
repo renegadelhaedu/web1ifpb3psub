@@ -16,7 +16,8 @@ def login():
     if login == 'junior' and senha == '12345':
         return render_template('logado.html')
     else:
-        return render_template('index5.html')
+        msg = 'usuário ou senha incorretos'
+        return render_template('index5.html', texto=msg)
 
 
 app.run()
