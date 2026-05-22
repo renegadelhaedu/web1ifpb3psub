@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Menu e Iframe</title>
+
+    <link rel="stylesheet" href="../static/css/menuiframe.css">
+</head>
+<body>
+    <nav class="menu-superior">
+
+        <a href="/listar" target="meuiframe" class="botao">Listar</a>
+        <a href="/cadastrar" target="meuiframe" class="botao">Cadastrar</a>
+        <a href="/remover" target="meuiframe" class="botao">Opção 3</a>
+        <a href="/avaliar" target="meuiframe" class="botao">Opção 4</a>
+    </nav>
+    <div class="conteudo">
+        <iframe name="meuiframe" src="about:blank" frameborder="0" title="Painel de Conteúdo"></iframe>
+    </div>
+
+</body>
+</html>
