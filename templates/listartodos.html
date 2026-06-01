@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>meus usuários</h1>
+    <hr><br>
+    <p>
+        <a href="/logout">Fazer Logout</a>
+    </p>
+    <hr><br>
+    {% for usuario in usuarios %}
+        <p>{{usuario}}</p>
+    {% endfor %}
+
+
+</body>
+</html>
