@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button type="button" id="botao" onclick="ordem()">Clique aqui</button>
+    <p id="alvo"></p>
+    <div id="foto">
+        <img src="https://s2-autoesporte.glbimg.com/qx9-_KPus8ldINXC2eRrSpVTnnE=/0x0:1920x1281/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2025/K/S/p3C9K5RB28hQQ7FJZjRg/renault-boreal-iconic-2026-frente-dinamica.jpg">
+    </div>
+    <script>
+        const caixatxt = document.getElementById('alvo');
+        const divfoto = document.getElementById('foto');
+        function ordem(){
+            caixatxt.textContent = "agora o bicho vai pegar";
+            document.body.style.backgroundColor = "red";
+            divfoto.style.display = "none"
+        }
+
+    </script>
+</body>
+</html>

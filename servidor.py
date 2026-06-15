@@ -20,6 +20,7 @@ def login():
     senha = request.form.get('senhausuario')
     #if utils.verificar_login(login, senha, lista_usuarios):
     if login == 'admin' and senha == '123':
+
         #criando um usuário na sessão
         session['usuario'] = login
         return render_template('logado.html')
