@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Exemplo de hoje: interação JS x HTML</h1>
+    <h2 id="meutexto">nosso texto: </h2>
+    <a id="botaomudar" onclick="mudartexto()">Clique aqui para mudar o mundo</a>
+    <script>
+        function mudartexto(){
+            let meuelemento = document.getElementById("meutexto");
+            meuelemento.innerHTML = "vai mudar o valor do texto";
+            meuelemento.style.color = "blue";
+        }
+
+    </script>
+</body>
+</html>

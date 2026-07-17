@@ -3,7 +3,7 @@ linguagem com execução nativa no navegador
 
 código JS dialoga com um página html de duas formas:
 
-1-interno: usa a tag style
+1-interno: usa a tag script
 2-externo: importa o arquivo JS
 
 JS observa a página html e acessa ela por meio do document
