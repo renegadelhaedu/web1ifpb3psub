@@ -10,3 +10,8 @@ function abrirmodal(){
 function fechar(){
     modal.style.display = 'none';
 }
+
+function alertardoidao(){
+    alert("corre que o homi ta doido");
+
+}
