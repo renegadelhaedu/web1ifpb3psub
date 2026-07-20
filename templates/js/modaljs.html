@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-    <meta charset="UTF-8">
-    <title>Sistema de Login</title>
-    <link rel="stylesheet" href="/static/css/modaljs.css">
+        <meta charset="UTF-8">
+        <title>Sistema de Login</title>
+        <link rel="stylesheet" href="/static/css/modaljs.css">
     </head>
     <body>
         <h1>Bem-vindo ao Sistema</h1>
-        <p onmouseover="alertardoidao()">se passar o mouse aqui vai dar ruim</p>
         <!-- Botão que aciona o Modal -->
         <button onclick="abrirmodal()">Fazer Login</button>
         <!-- O Fundo Escuro (Overlay) e o Modal -->
@@ -18,16 +17,20 @@
                 <form>
                     <p>
                         <label>Usuário:</label>
-                        <input type="text" placeholder="Digite seu usuário">
+                        <input onchange="mudou()" type="text" id="inputnome" placeholder="Digite seu usuário">
+
                     </p>
+                    <a id="msgalerta"></a>
                     <p>
                         <label>Senha:</label>
-                        <input type="password" placeholder="Digite sua senha">
+                        <input type="password" placeholder="Digite sua senha" required>
                     </p>
-                    <button type="button">Entrar</button>
+                    <button type="submit">Entrar</button>
                 </form>
             </div>
         </div>
+        <p onmouseover="alertardoidao()">se passar o mouse aqui vai dar ruim</p>
+
         <!-- Importando o arquivo JavaScript externo -->
         <script src="/static/js/modaljs.js"></script>
     </body>

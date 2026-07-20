@@ -1,0 +1,17 @@
+var a = 2;
+É uma forma antiga e pouco segura de declara variáveis
+em javascript. Ela permite modificar o valor da variável.
+
+let x = 34;
+x = 98;
+É uma forma moderna de declarar variável e possibilita mudar
+o conteúdo da variável. Se o bloco terminar, ela deixa de existir na memória.
+
+const x = 34;
+x = 98;
+É uma forma moderna de declarar variável, mas nao possibilita mudar
+o conteúdo da variável. Se o bloco terminar, ela deixa de existir na memória.
+
+como seria isso em python:
+x  = 2 => python
+let x = 2; => javascript
