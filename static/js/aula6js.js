@@ -1,5 +1,5 @@
 function apagar(){
-    if(document.body.style.backgroundColor == "black"){
+    if(document.body.style.backgroundColor === "black"){
         document.body.style.backgroundColor = "white";
             document.body.style.color = "black";
     }else{
